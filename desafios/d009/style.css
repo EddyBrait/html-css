@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body {
+    font-size: 100%;
+    background-color: rgb(24, 24, 24);
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: blanchedalmond;
+    padding: 40px;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.video-cima-a {
+    padding: 30px;
+    padding-left: 15px;
+}
+
+.video-baixo-a {
+    
+}    
