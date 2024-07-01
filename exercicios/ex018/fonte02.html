@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'scary';
+            src: url('fonts/scary.ttf') format('truetype'), url('love larry.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+            - open type = otf
+            - truetype = ttf
+            -embedded opentype
+            truetype-aat (Apple Advanced Typography)
+            -svg
+            */
+        }
+
+        @font-face {
+            font-family: 'love';
+            src: url('fonts/love larry.ttf') format('truetype');
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family:'scary', 'Times New Roman', Times, serif ;
+            font-size: 3em;
+            font-weight: normal;
+        }
+            h2{
+                font-family: 'love';
+                font-size: 2em;
+                font-weight: normal;
+            }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero modi deserunt accusamus ipsam pariatur enim quaerat aspernatur possimus neque harum officia, animi ab perspiciatis rem ducimus soluta porro ut blanditiis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt et atque quos at, magnam exercitationem praesentium quibusdam dolor impedit nihil aliquid, perspiciatis voluptas inventore eum omnis nesciunt aspernatur pariatur quam!</p>
+    <h2>Testando</h2>
+    
+</body>
+</html>
